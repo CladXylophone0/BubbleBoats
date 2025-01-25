@@ -11,8 +11,12 @@ config_version=5
 [application]
 
 config/name="BubbleBoats"
-run/main_scene="res://Scene1.tscn"
+run/main_scene="res://Scenes/Scene1.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
+
+[dotnet]
+
+project/assembly_name="BubbleBoats"
 
 [input]
 

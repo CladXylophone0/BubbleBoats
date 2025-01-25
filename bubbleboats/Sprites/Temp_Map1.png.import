@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1846yhb2ioxt"
-path="res://.godot/imported/TempTiles.png-7223baeaa2c2c1245576bad263b1a928.ctex"
+uid="uid://dedkew5kcvp6u"
+path="res://.godot/imported/Temp_Map1.png-d8abc849f5a65acc5f6063ac9a1fc586.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TempTiles.png"
-dest_files=["res://.godot/imported/TempTiles.png-7223baeaa2c2c1245576bad263b1a928.ctex"]
+source_file="res://Sprites/Temp_Map1.png"
+dest_files=["res://.godot/imported/Temp_Map1.png-d8abc849f5a65acc5f6063ac9a1fc586.ctex"]
 
 [params]
 

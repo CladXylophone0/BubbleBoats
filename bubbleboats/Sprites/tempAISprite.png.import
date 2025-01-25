@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwghogjuini0u"
-path="res://.godot/imported/Temp_map2 - Copy.png-35a16836f0b0cff0f5954ff495533b77.ctex"
+uid="uid://dnth4btgalobr"
+path="res://.godot/imported/tempAISprite.png-ab3ee272f418287b6c215ca7d0c6005a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Temp_map2 - Copy.png"
-dest_files=["res://.godot/imported/Temp_map2 - Copy.png-35a16836f0b0cff0f5954ff495533b77.ctex"]
+source_file="res://Sprites/tempAISprite.png"
+dest_files=["res://.godot/imported/tempAISprite.png-ab3ee272f418287b6c215ca7d0c6005a.ctex"]
 
 [params]
 

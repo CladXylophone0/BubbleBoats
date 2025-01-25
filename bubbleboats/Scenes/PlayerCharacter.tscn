@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://c2rbp460bluye"]
+
+[ext_resource type="Script" path="res://Scripts/Charactermovement.gd" id="1_3m4u1"]
+[ext_resource type="Texture2D" uid="uid://bskljphsis7an" path="res://Sprites/temp_player.png" id="2_sopap"]
+[ext_resource type="Script" path="res://Scripts/TileDetection.gd" id="3_juytg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5xc8d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tnj0j"]
+
+[node name="PlayerBoat" type="CharacterBody2D"]
+script = ExtResource("1_3m4u1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_5xc8d")
+
+[node name="PlayerCam" type="Camera2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_sopap")
+
+[node name="TerrainDetector" type="Area2D" parent="."]
+script = ExtResource("3_juytg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TerrainDetector"]
+shape = SubResource("RectangleShape2D_tnj0j")
